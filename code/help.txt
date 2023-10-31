@@ -1,0 +1,5 @@
+first step: Vessel segmentation
+python 1-SegmentBloodVessels.py adam_0041_0000.nii.gz 41.nii.gz
+second step: 2-otsu.py (nii_file = nib.load(from first step))
+third step: 3-connectedcomponent.py (load from second step) 
+last step: 4-CropTheImageWIthMinAndMaxPoints.py (inputs: two images: first from the third step and another the original image we eant to crop. Then, we also need to crop the mask image too with same points)
