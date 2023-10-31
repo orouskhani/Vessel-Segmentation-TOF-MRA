@@ -4,4 +4,5 @@ In this project, we have devised a technique employing conventional segmentation
 ![image](https://github.com/orouskhani/Vessel-Segmentation-TOF-MRA/blob/main/Model.jpg)
 
 
+![image](https://github.com/orouskhani/Vessel-Segmentation-TOF-MRA/blob/main/result.png)
 
