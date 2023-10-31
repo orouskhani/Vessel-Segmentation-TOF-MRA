@@ -11,10 +11,10 @@ In part 2 of this project, we used two modalities to train the model. </br>
 1- The original image
 2- Attention image: Original image * Vessel image
 
-Note: The vessel image is derived from Hessian. Then, it normalized to [0,1]
+Note: The vessel image is derived from Hessian. Then, it normalized to [0,1] </br>
 
-original image--> [0,255]
-vessel image --> [0,1]
-So  original image * vessel image --> Normalized between 0,255
+original image--> [0,255] </br>
+vessel image --> [0,1] </br>
+So  original image * vessel image --> Normalized between 0,255 </br>
 
 **Result--> ** While training the model with the original images achieved Dice coefficient equals 0.48, multimodality training of the original dataset and data derived from enhanced hessian provides the Dice close to 0.57.  
